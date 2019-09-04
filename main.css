@@ -1,0 +1,19 @@
+body {
+	background-color: powderblue;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+img {
+	width: 100%;
+}
+
+pre {
+	background-color: black;
+	color: white;
+	font-family: monospace;
+	border-radius: 10px;
+	padding: 10px;
+}

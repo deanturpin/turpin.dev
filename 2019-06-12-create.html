@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+Google Cloud actually offer pre-built Ghost images but unfortunately they deploy a woefully antique revision. So I built my own using <a href='https://github.com/TryGhost/Ghost/'>Ghost's GitHub</a> instructions as a reference.
+But let's proceed with setting up our own. Your slick new blog can be up and running without even leaving your web browser – I used Chromium 73.0.3683.75; and the Ghost installer even negotiates the <a href='https://letsencrypt.org/'>Let's Encrypt</a> key exchange with very little pause for interaction. If you're new to Google Cloud then the "free tier" starting balance of $300 will be sufficient to keep a simple blog online for a year.
+<h2>Domains and VM configuration</h2>
+- Purchase a domain from <a href='http://domains.google'>Google Domains</a>
+<h2>Install npm, nginx and the Ghost CLI</h2>
+<h2>DNS propagation</h2>
+Hit your new website via http:// (not https://... not just yet) to test your DNS settings have propagated around the Internet. You may find your browser auto redirects to https:// – see <a href='https://hstspreload.org/'>HSTS preload</a> – in fact this should be the default for .dev domains.
+<h2>Install Ghost and and SQL DB</h2>
+<h2>Create admin login</h2>
+</body>
+</html>
